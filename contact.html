@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>FitTogether Gym</title>
+  <link rel="icon" href="img/icon.ico">
+  <!--Ion Icons-->
+  <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
+
+  <!--Google Fonts-->
+  <link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Aldrich&display=swap" rel="stylesheet">
+  <!--my stylesheet-->
+  <link rel="stylesheet" href="css/styles.css">
+  <!-- maps styles leaflet -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css" />
+  <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"></script>
+
+</head>
+
+<body>
+  <div class="spinner-wrapper">
+    <div class="spinner">
+
+    </div>
+
+  </div>
+  <header>
+    <div class="container">
+      <nav>
+        <div class="nav-brand">
+          <a href="index.html">
+            <img src="./img/logobig.png" alt="">
+          </a>
+        </div>
+
+        <div class="menu-icons open">
+          <i class="icon ion-md-menu"></i>
+        </div>
+
+        <ul class="nav-list">
+          <div class="menu-icons close">
+            <i class="icon ion-md-close"></i>
+          </div>
+
+          <li class="nav-item">
+            <a href="index.html" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#service" class="nav-link">Services</a>
+          </li>
+          <li class="nav-item">
+            <a href="#team" class="nav-link">Trainers</a>
+          </li>
+          <li class="nav-item">
+            <a href="#memberships" class="nav-link">Memberships</a>
+          </li>
+          <li class="nav-item">
+            <a href="about.html" class="nav-link">About</a>
+          </li>
+          <li class="nav-item">
+            <a href="contact.html" class="nav-link current">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- main -->
+  <section class="contact-bg">
+    <div class="container">
+      <div class="contact-txt">
+        <span class="text1">Contact</span>
+        <span class="text2">get in touch</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <div class="container">
+      <div class="cnt-inner-width">
+        <h1>Lets get in touch. Send us a message:</h1>
+        <p><i class="fa fa-map-marker"></i> FitTogether, 2 Central Ave, Wigston LE18 2AA</p>
+        <p><i class="fa fa-phone"></i> Phone: +44 123456789</p>
+        <p><i class="fa fa-envelope"></i> Email: fittogther@gmail.com</p>
+        <br>
+        <form action="/action_page.php" target="_blank">
+          <p><input class="name" type="text" placeholder="Name" required name="Name"></p>
+          <p><input class="email" type="text" placeholder="Email" required name="Email"></p>
+          <p><input class="message" type="text" placeholder="Message" required name="Message"></p>
+          <p>
+            <button class="sub-btn" type="submit">
+              <i class="fa fa-paper-plane"></i> SEND MESSAGE
+            </button>
+          </p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Google maps  -->
+  <div id="map"></div>
+
+  <!-- footer section -->
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="icons">
+        <a href="https://www.instagram.com/mr.fit.together/?hl=en"><i class="fab fa-instagram"></i></a>
+        <a href="https://en-gb.facebook.com/MrFitTogether/"><i class="fab fa-facebook"></i></a>
+        <a href="https://www.snapchat.com/l/en-gb/"><i class="fab fa-snapchat"></i></a>
+        <a href="contact.html"><i class="far fa-envelope"></i></a>
+      </div>
+    </div>
+    <div class="copyright">
+      &copy; FitTogether Gym. All rights reserved.
+    </div>
+  </footer>
+
+  <script type="text/javascript" src="js/scripts.js"></script>
+
+</body>
+
+</html>

@@ -1,5 +1,8 @@
 # Gymsite
-# CTEC3905 Assignment
+
+To see the site:
+
+https://christiankasongo.github.io/Fittogethergym/
 
 Learning Resources Used
 
